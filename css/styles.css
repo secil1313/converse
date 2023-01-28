@@ -1,0 +1,13 @@
+body{
+    background-color: #c7c0b7;
+}
+hr{
+    background-color: white;
+    border-style: none;
+    height: 2px;
+    width: 30%;
+    /* aradaki çizgileri beyaz yapmısız borderını kaldırmısız yükseklik e genişliğini ayarlamısız */
+}
+h1{
+    color:rgb(114,166,178)
+}

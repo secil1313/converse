@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race Registration</title>
+</head>
+<body>
+    <form action="https://www.google.com">
+        <h1>Race Registration</h1>
+        <label for="kullanici-id">First Name</label>
+        <input name="kullaniciAdi" type="text" id="kullanici-id" 
+        placeholder="Enter First Name" required minlength="4" maxlength="30">
+        <label for="kullaniciSoyadi-id">Last Name</label>
+        <input name="kullaniciSoyadi" type="text" id="kullaniciSoyadi-id" 
+        placeholder="Enter Last Name" required minlength="4" maxlength="30">
+        <p>Select a Race:</p>
+    
+        <input type="radio" name="race" id="funRun5k-id" value="funRun5k">
+        <label for="funRun5k-id">Fun Run 5k</label>
+        <br>
+        <input type="radio" name="race" id="halfMarathon-id" value="halfMarathon">
+        <label for="halfMarathon-id">Half Marathon</label> 
+        <br>
+        <input type="radio" name="race" id="fullMarathon-id" value="fullMarathon">
+        <label for="fullMarathon-id">Full Marathon</label>
+        <br>
+        <br>
+        <label for="email-id">Email</label>
+        <input name="email" type="text" id="email-id" 
+        placeholder="abc@gmail.com" required>
+        <label for="password-id">Password</label>
+        <input name="password" type="text" id="password-id" 
+        placeholder="Enter Password" required>
+        <br>
+        <br>
+        <label for="">Select Age Group</label>
+        <select name="agegroup" id="agegroup-id">
+            <option value="under-18">Under 18</option>
+            <option value="18-30">18-30</option>
+            <option value="30-50">30-50</option>
+            <option value="50+">50+</option>
+        </select>
+        <br>
+        <br>
+        <button>Register!</button>
+    </form>
+</body>
+</html>
